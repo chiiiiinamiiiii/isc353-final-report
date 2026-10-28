@@ -13,8 +13,14 @@ For each sleep group, a random forest (interpreted with SHAP) and a linear regre
 ## Files(ファイル)
 
 - `analysis.ipynb`:Analysis notebook(分析ノートブック)
-- `data/bedtime_screentime_sleep_debt.csv`:Dataset, 8,500 rows × 18 columns(データ、8,500行×18列)
-- `data/README.md`:Data source and license(データの出典とライセンス、CC BY-SA 4.0)
+- `bedtime_screentime_sleep_debt.csv`:Dataset, 8,500 rows × 18 columns(データ、8,500行×18列)
+
+## Data(データ)
+
+- Source(出典):Sleep Debt and Screen Time: Late-Night Phone Habits (Kaggle, samartalwar)
+  https://www.kaggle.com/datasets/samartalwar/sleep-debt-and-screen-time-late-night-phone-habits
+- License(ライセンス):CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+- Changes(変更):None(なし). The file is redistributed as downloaded(ダウンロードしたまま再配布).
 
 ## How to run(実行方法)
 
