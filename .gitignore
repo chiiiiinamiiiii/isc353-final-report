@@ -3,3 +3,5 @@
 !analysis.ipynb
 !README.md
 !bedtime_screentime_sleep_debt.csv
+!figures/
+!figures/*.png
