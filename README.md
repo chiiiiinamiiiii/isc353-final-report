@@ -28,6 +28,7 @@ Details and limitations are in Step 14 of the notebook(詳細と限界はノー�
   - `coef_by_group.png`:Linear regression coefficients with 95% CI by group(グループ別の係数と95%信頼区間)
   - `shap_by_group.png`:SHAP importance by group(グループ別のSHAP重要度)
   - `shap_dependence.png`:SHAP value vs feature value(特徴量の値とSHAP値)
+  - `shap_dependence_lines.png`:Mean SHAP value by feature value bin, an easier version of the figure above(特徴量の値の区間ごとのSHAP値の平均。上の図を見やすくした版)
   - `coef_windows.png`, `shap_windows.png`:Overlapping windows(重なる区切りでの係数とSHAP)
   - `paired_cv.png`:MSE of each CV fold by model(モデルごとの分割別MSE)
 
