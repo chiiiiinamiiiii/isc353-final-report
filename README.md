@@ -62,9 +62,3 @@ Run all cells from the top in order. The grid search in Step 8 takes about 5 min
 - Step 12:Robustness check with overlapping windows(重なる区切りでの頑健性の確認), suggested by Oliver. 1-hour windows moved by 30 minutes
 - Step 13:Statistical tests(統計的検定). Interaction F-test, paired t-test on 10-fold CV
 - Step 14:Summary and limitations(まとめと限界)
-
-## To do(残っていること)
-
-- Confirm that these methods were covered in class(授業で扱ったか確認する):statsmodels OLS confidence intervals, interaction F-test, HC3, Bonferroni correction, paired t-test with Nadeau-Bengio correction
-- Write the report, A4 4 pages, due 16 November 23:59(レポートを書く。A4で4ページ、締切は11月16日23:59)
-- Prepare the presentation, 10 minutes and 5 minutes of questions(発表の準備。10分発表と5分質疑)
