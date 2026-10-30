@@ -57,7 +57,7 @@ Run all cells from the top in order. The grid search in Step 8 takes about 5 min
 - Step 7:Models per group(グループごとのモデル)
 - Step 8:Grid search of random forest(RFのグリッドサーチ). max_depth × min_samples_leaf, 5-fold CV, heatmaps
 - Step 9:Evaluation on test data(テストデータでの評価)
-- Step 10:Interpretation of linear regression(線形回帰の解釈). Coefficients, 95% CI, correlated features, model without sleep_latency and snoozes
+- Step 10:Interpretation of linear regression(線形回帰の解釈). Coefficients, 95% CI, correlated features
 - Step 11:SHAP for the random forests(RFのSHAP)
 - Step 12:Robustness check with overlapping windows(重なる区切りでの頑健性の確認), suggested by Oliver. 1-hour windows moved by 30 minutes
 - Step 13:Statistical tests(統計的検定). Interaction F-test, paired t-test on 10-fold CV
