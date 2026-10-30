@@ -18,10 +18,10 @@ Moving windows over sleep duration are the main method, following Oliver's sugge
   (10特徴量のうち7つで1回以上変わった。隣どうしの比べ50回のうち14回で0を含まず、偶然の目安2.5回より多い)
 - **Sleep-related factors(睡眠に関係する要因):** sleep latency, sleep hours, deep sleep and snoozes are strongest at 4-6h and weaken from 6h to 8h.
   (寝つくまでの時間、睡眠時間、深い睡眠、スヌーズは4〜6時間で一番強く、6時間から8時間にかけて弱まる)
-- **Phone use, screen brightness and caffeine(スマホ、画面の明るさ、カフェイン):** about the same up to 7h, smaller only from 7h to 8h.
-  (7時間まではほぼ同じで、7時間から8時間でだけ小さくなる)
-- **No change shown(変わるとは言えない):** blue light filter, physical activity and REM sleep.
-  (ブルーライトフィルター、運動、レム睡眠)
+- **Phone use and caffeine(スマホとカフェイン):** about the same up to 7h, smaller from 7h to 8h. Screen brightness also drops from 7h to 8h, but already goes down slowly before 7h.
+  (7時間まではほぼ同じで、7時間から8時間で小さくなる。画面の明るさも7時間から8時間で小さくなるが、7時間までにも少しずつ下がっている)
+- **No change shown between neighboring windows(隣どうしの窓で変わるとは言えない):** blue light filter, physical activity and REM sleep. Slow changes over several hours were not tested.
+  (ブルーライトフィルター、運動、レム睡眠。数時間かけたゆっくりした変化は確かめていない)
 - **Random forest agrees(RF も同じ形):** SHAP slopes correlate with the linear regression curves at 0.89-0.99 for 6 features.
   (SHAP の傾きと線形回帰の曲線の相関は6つの特徴量で0.89〜0.99)
 - **Best model by range(区間別の最良モデル):** choosing a model per sleep range (test MSE 0.33042) was not clearly better than the moving-window linear regression.
